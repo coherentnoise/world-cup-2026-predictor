@@ -86,6 +86,4 @@ Students should be able to explain:
 6. How Monte Carlo simulation produces tournament probabilities.
 7. How leakage can enter live sports forecasting.
 
-## Important note
 
-The included `world_cup_predictor_2026.py` is a compact teaching version. It uses a simplified seeded knockout after group qualification so students can focus on the forecasting pipeline. Replace it with your full official-bracket script when you want production-style tournament probabilities.
