@@ -1,7 +1,0 @@
-numpy
-pandas
-requests
-tqdm
-scipy
-lxml
-html5lib
