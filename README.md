@@ -4,6 +4,8 @@ A teaching-oriented Python project for simulating the 2026 FIFA World Cup using 
 
 The repo is designed for students learning forecasting, sports analytics, probability models, and reproducible data science.
 
+## Disclaimer - I do not encourage sports betting based on these predictions.
+
 ## Project structure
 
 ```text
@@ -22,8 +24,9 @@ world-cup-2026-predictor/
 ├── notebooks/
 ├── outputs/
 ├── scripts/
-│   ├── world_cup_predictor_2026.py
+│   ├── world_cup_predictor_live_2026.py
 │   ├── knockout_stage_predictor_2026.py
+│   ├── estimate_elo_goals_relation.py
 │   ├── estimate_dixon_coles_rho.py
 │   └── create_third_place_mapping_csv.py
 ├── requirements.txt
