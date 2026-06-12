@@ -26,7 +26,7 @@ The baseline expected-goals model is:
 log_mu = intercept + elo_coef * rating_gap_per_100 + host_coef * host_indicator
 ```
 
-This is intentionally simple. A student extension is to estimate these coefficients from historical data.
+This is intentionally simple. Later we can see how we can estimate this from historical data.
 
 ## Dixon–Coles correction
 
@@ -36,7 +36,7 @@ Independent Poisson models usually misrepresent low football scores. Dixon–Col
 0-0, 0-1, 1-0, 1-1
 ```
 
-The correction is controlled by `DIXON_COLES_RHO`.
+The correction is controlled by `DIXON_COLES_RHO`. This can also be estimated from historical data.
 
 ## Monte Carlo simulation
 
