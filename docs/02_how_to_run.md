@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## Main predictor
 
 ```bash
-python scripts/world_cup_predictor_2026.py
+python scripts/world_cup_predictor_live_2026.py
 ```
 
 ## Knockout predictor
